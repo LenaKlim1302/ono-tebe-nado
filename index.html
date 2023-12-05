@@ -14,30 +14,32 @@
       <nav class="header_menu">
         <ul class="header_links_list"> <!-- нужен вообще класс-->
           <li class="header__links-list-item_no-bullit"> 
-            <a class="header__link">главная</a>
+            <a>главная</a>
           </li> 
-          <li class="header__links-list-item">
-            <a class="header__link_active" href="">посмотреть лоты</a>
+          <li>
+            <a href="#lots-link">посмотреть лоты</a>
           </li>
           <li>
-            <a class="header__link_active" href="">об аукционе</a>
+            <a href="#about-link">об аукционе</a>
           </li>
         </ul>
       </nav>
 
-      <a class="header_logo">
+      <div class="header_logo">
         <img
+        class="header_logo_image"
         src="images/logo-black.svg"
         alt="Логотип аукциона"
         />
-      </a>
-      
+      </div>
+      <div class="box">
       <address class="header__address"> 
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <br> <p>наб. Принсенграхт 263-265, Амстердам</p>
+         <br>наб. Принсенграхт 263-265, 
+         <br>Амстердам</p>
        </address>
-
+      </div>
     </header>
     <main class="main">
 
@@ -51,27 +53,28 @@
             </h1>
         <div class="subline">
           <div class="auction">
-            <p>Аукцион вещей, в которые никто не верил<span class="botton" href="#">сделать ставку</span></p>
+            <p>Аукцион вещей, в которые никто не верил</p>
+            <a class="botton" href="#lots-link">сделать ставку</a>
           </div>
         </div>
       </div>
     </section>
-    <p class="name">Лоты</p>
+    <p class="name" id="lots-link">Лоты</p>
 
     <section class="lots">
-      <a href="#"  style="text-decoration: none;">
+      <a href="#"  class="underline">
           <div class="movie"> 
             <p class="card_title">Фильм режиссёра, который  бросил киношколу</p>
             <p class="card_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
           </div>
       </a>
-      <a href="#" style="text-decoration: none;">
+      <a href="#" class="underline">
           <div class="book"> 
             <p class="card_title">Книга, где описан один скучный день из жизни рекламного агента</p>
             <p class="card_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
           </div>
       </a>
-      <a href="#" style="text-decoration: none;">
+      <a href="#" class="underline">
           <div class="picture">
             <p class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
             <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
@@ -80,10 +83,10 @@
       </a>
      
     </section>
-    <p class="more">посмотреть больше</p>
+    <a class="more" href="#">посмотреть больше</a>
 
 
-    <section class="about">
+    <section class="about" id="about-link">
       <div class="logo_column">
         <img class="header__logo_white"
         src="images/logo-white.svg"
@@ -100,7 +103,8 @@
       <address class="header__address" style="justify-self: start;"> 
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <br> <p>наб. Принсенграхт 263-265, Амстердам</p>
+        <br> <p>наб. Принсенграхт 263-265, 
+          <br>Амстердам</p>
        </address>
 
        <nav class="footer__menu">
@@ -109,27 +113,37 @@
             <a class="header__link">главная</a>
           </li> 
           <li class="header__links-list-item">
-            <a class="header__link_active" href="">посмотреть лоты</a>
+            <a class="header__link_active" href="#lots-link">посмотреть лоты</a>
           </li>
           <li>
-            <a class="header__link_active" href="">об аукционе</a>
+            <a class="header__link_active" href="#about-link">об аукционе</a>
           </li>
         </ul>
       </nav>
 
-      <div class="socials">
-      <img class="youtube"
-        src="images/yt.svg"
-        alt="Логотип youtube">
-
-        <img class="vk"
-        src="images/vk.svg"
-        alt="Логотип VK">
-
-        <img class="pinterest"
-        src="images/pinterest.svg"
-        alt="Логотип pinterest">
-      </div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.youtube.com">
+          <img class="youtube"
+          src="images/yt.svg"
+         alt="Логотип youtube">
+        </a>
+        </li>
+        <li>
+          <a href="https://www.vk.com">
+            <img class="vk"
+             src="images/vk.svg"
+            alt="Логотип VK">
+          </a>
+        </li>
+           <li>
+            <a href="https://www.pinterest.com">
+         <img class="pinterest"
+         src="images/pinterest.svg"
+          alt="Логотип pinterest">
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
