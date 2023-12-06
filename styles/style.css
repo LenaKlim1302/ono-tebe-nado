@@ -36,7 +36,8 @@ body {
   display: flex;
   flex-direction: row;
   list-style: circle;
-  gap: 32px;}
+  gap: 32px;
+}
 
 .header__links-list-item_no-bullit {
  text-decoration: none;
@@ -122,7 +123,6 @@ body {
 }
 
 .nado {
-  margin-right: 50px;
   text-align: end;
   line-height: 100px;
 }
@@ -332,7 +332,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 100px 25px 0 25px;
+  margin: 100px 25px 0 0;
   font-family: "Raleway";
   line-height: normal;
 }
