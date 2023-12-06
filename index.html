@@ -2,8 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles/global.css">
@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <nav class="header_menu">
-        <ul class="header_links_list"> <!-- нужен вообще класс-->
+        <ul class="header_links_list">
           <li class="header__links-list-item_no-bullit"> 
             <a>главная</a>
           </li> 
@@ -25,19 +25,15 @@
         </ul>
       </nav>
 
-      <div class="header_logo">
-        <img
-        class="header_logo_image"
-        src="images/logo-black.svg"
-        alt="Логотип аукциона"
-        />
-      </div>
-      <div class="box">
-      <address class="header__address"> 
+      <a class="header_logo" href="#">
+        <img class="header_logo_image" src="images/logo-black.svg" alt="Логотип аукциона"/>
+      </a>
+      <div class="address">
+        <address class="header__address"> 
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-         <br>наб. Принсенграхт 263-265, 
-         <br>Амстердам</p>
+        <br>наб. Принсенграхт 263-265, 
+        <br>Амстердам
        </address>
       </div>
     </header>
@@ -47,16 +43,12 @@
     <section class="cover">
       <div class="overlay">
        <h1 class="cover-title">
-              <p class="ono">о<span class="no">но</span></p>
-              <p class="tebe">те<span class="be">бе</span></p>
-              <p class="nado"><span class="na">н</span>адо</p>
-            </h1>
-        <div class="subline">
-          <div class="auction">
-            <p>Аукцион вещей, в которые никто не верил</p>
-            <a class="botton" href="#lots-link">сделать ставку</a>
-          </div>
-        </div>
+          <p class="ono">о<span class="no">но</span></p>
+          <p class="tebe">те<span class="be">бе</span></p>
+          <p class="nado"><span class="na">н</span>адо</p>
+          <p class="auction">Аукцион вещей, в которые никто не верил</p>
+          <a class="botton" href="#lots-link">сделать ставку</a>
+        </h1>
       </div>
     </section>
     <p class="name" id="lots-link">Лоты</p>
@@ -80,17 +72,14 @@
             <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
           </div>
       </a>
-      </a>
-     
+      
     </section>
     <a class="more" href="#">посмотреть больше</a>
 
 
     <section class="about" id="about-link">
       <div class="logo_column">
-        <img class="header__logo_white"
-        src="images/logo-white.svg"
-        alt="Логотип аукциона">
+        <img class="header__logo_white" src="images/logo-white.svg" alt="Логотип аукциона">
       </div>  
     <div class="info">
         <p class="about__title">Об аукционе</p>
@@ -104,19 +93,19 @@
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <br> <p>наб. Принсенграхт 263-265, 
-          <br>Амстердам</p>
-       </address>
+        <br>Амстердам</p>
+      </address>
 
        <nav class="footer__menu">
         <ul class="footer__menu-list"> <!-- нужен вообще класс-->
-          <li class="header__links-list-item_no-bullit"> 
+          <li> 
             <a class="header__link">главная</a>
           </li> 
-          <li class="header__links-list-item">
-            <a class="header__link_active" href="#lots-link">посмотреть лоты</a>
+          <li>
+            <a href="#lots-link">посмотреть лоты</a>
           </li>
           <li>
-            <a class="header__link_active" href="#about-link">об аукционе</a>
+            <a href="#about-link">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -124,23 +113,17 @@
       <ul class="socials">
         <li>
           <a href="https://www.youtube.com">
-          <img class="youtube"
-          src="images/yt.svg"
-         alt="Логотип youtube">
+          <img class="youtube" src="images/yt.svg" alt="Логотип youtube">
         </a>
         </li>
         <li>
           <a href="https://www.vk.com">
-            <img class="vk"
-             src="images/vk.svg"
-            alt="Логотип VK">
+            <img class="vk" src="images/vk.svg" alt="Логотип VK">
           </a>
         </li>
-           <li>
-            <a href="https://www.pinterest.com">
-         <img class="pinterest"
-         src="images/pinterest.svg"
-          alt="Логотип pinterest">
+        <li>
+          <a href="https://www.pinterest.com">
+            <img class="pinterest" src="images/pinterest.svg" alt="Логотип pinterest">
           </a>
         </li>
       </ul>

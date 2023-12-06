@@ -1,6 +1,4 @@
 
-
-
 body {
     margin: 0;
     display: flex;
@@ -60,7 +58,7 @@ width: 148px;
 height: 105px; 
 }
 
-.box {
+.address {
 display: flex;
 justify-self: end;
 padding-right: 49px;
@@ -72,8 +70,6 @@ padding-right: 49px;
   width: 100%;
    flex-direction: column;
    line-height: 24.3px;
-   
-
 }
 
 .main {
@@ -90,7 +86,7 @@ padding-right: 49px;
     position: relative;
     background: url("/images/cover.jpg") center/cover no-repeat;
     background-position: center;
-    height: 757px;   /**/
+    height: 757px;   
     width: auto;
 
   }
@@ -98,9 +94,9 @@ padding-right: 49px;
   .overlay {
     position: absolute;
     margin-top: 0;
-    background: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность затемнения */
+    background: rgba(0, 0, 0, 0.5); 
     inset: 0;
-    z-index: 1; /* Поместить затемнение под изображение */
+    z-index: 1; 
     width: 100%;
 
   }
@@ -117,76 +113,74 @@ font-weight: 700;
 letter-spacing: 30px;
 color: white;
 text-transform: uppercase;
-padding: 0;
   z-index: 3;
 }
 
-.no {
-  letter-spacing: 60px;
-}
 
 .ono {
   display: inline-block;
-  box-sizing: border-box;
   text-align: start;
   margin-left: 50px;
-  margin-bottom: 20px;
   margin-top: 165px;
+  line-height: 115px;
+  margin-bottom: 20px;
 }
 
 .tebe {
   text-align: center;
+  line-height: 100px;
   margin-bottom: 20px;
-}
-
-.be {
-  letter-spacing: 60px;
 }
 
 
 .nado {
   text-align: end;
   margin-right: 50px;
+  line-height: 100px;
 }
 
+.no,
+.be,
 .na {
   letter-spacing: 60px;
 }
 
-
-.subline{
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  height: auto;
- text-transform: uppercase;
- text-align: right;
- white-space: nowrap;
- color: white;
-  margin-top: 100px;
-  margin-right: 50px;
-  align-items: center;
-  justify-self: end;
-
-}
-
 .auction {
 display: inline-block;
-  font-size: 22px;
-  margin-right: 78px;
+  height: auto;
+  line-height: 28px;
+ word-spacing: 17px;
+ letter-spacing: normal;
+ color: #FFF;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+
+margin-left: 422px;
+
 }
+
+
 
 .botton {
   display: inline-block;
+ text-align: end;
+  box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid;
- line-height: 28px;
+  letter-spacing: normal;
+  font-weight: normal;
+  border: 1px solid;
+white-space: nowrap;
   width: 257px;
   height: 52px;
-  padding: 12px 32px;
+  padding: 12px 32px 12px 32px;
+  margin: 0;
   background-color: transparent;
-
+  color: #FFF;
+font-size: 22px;
+text-transform: uppercase;
+margin-top: 147px;
 }
 
 .name {
@@ -420,7 +414,7 @@ width: 100%;
   display: grid;
   position: relative;
   grid-template-columns: repeat(3, 1fr);
- width: 100%;                         /*убрать потом*/
+ width: 100%;                         
   background-color: blanchedalmond;
   font-family: "Raleway";
   font-size: 18px;
@@ -429,6 +423,8 @@ width: 100%;
   line-height: 24.3px;
   align-self: end;
   margin: 180px 50px 90px 50px;
+
+ 
 }
 
 .footer__menu {
