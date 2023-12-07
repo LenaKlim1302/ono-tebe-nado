@@ -213,31 +213,31 @@ body {
   position: absolute;
   height: 450px;
   width: 430px;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .movie {
   max-width: 430px;
   background-image: url("/images/card-lot-01.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-position: center; 
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .book {
   max-width: 430px;
   background-image: url("/images/card-lot-02.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-position: center; 
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .picture {
   max-width: 430px;
   background-image: url("/images/card-lot-03.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-position: center; 
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .card_title {
@@ -359,8 +359,8 @@ body {
   display: grid;
   position: relative;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;  
-  margin: 180px 50px 90px 50px; 
+  width: 100%;
+  margin: 180px 50px 90px 50px;
   align-self: end;                      
   font-family: "Raleway";
   font-size: 18px;
@@ -390,7 +390,7 @@ body {
   height: 48px;
   list-style: none;
   gap: 48px;
-  justify-content: end; 
+  justify-content: end;
 }
 
 .youtube {
