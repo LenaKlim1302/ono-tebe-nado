@@ -80,7 +80,7 @@ body {
   position: relative;
   height: 757px;
   width: auto;
-  background: url("/images/cover.jpg") center/cover no-repeat;
+  background: url("../images/cover.jpg") center/cover no-repeat;
 }
 
 .overlay {
@@ -218,7 +218,7 @@ body {
 
 .movie {
   max-width: 430px;
-  background-image: url("/images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ body {
 
 .book {
   max-width: 430px;
-  background-image: url("/images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ body {
 
 .picture {
   max-width: 430px;
-  background-image: url("/images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
