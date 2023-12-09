@@ -5,7 +5,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", "Arial", "sans-serif";
-  background-color: aquamarine;
   }
 
 .header {
@@ -51,17 +50,12 @@ body {
  height: 105px;
 }
 
-.address {
- display: flex;
- padding-right: 49px;
- justify-self: end;
-}
+
 
 .header__address {
  display: inline-block;
- padding-right: 49px;
+ padding-right: 50px;
  justify-self: end;
-  width: 100%;
   line-height: 24.3px;
   font-style: normal;
 }
@@ -339,7 +333,7 @@ margin-left: auto;
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 100px 25px 0 25px;
+  margin: 100px 25px 0 0;
 }
 
 .about__title {
