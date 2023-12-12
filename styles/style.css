@@ -63,46 +63,43 @@ body {
 }
 
 .overlay {
+  display: inline-block;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .cover-title {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   z-index: 3;
-  width: 100%;
-  height: 100%;
+  margin: 165px 50px 0 50px;
   color: #fff;
+  gap: 20px;
+  font-size: 100px;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 30px;
 }
 
-.first_line {
-  display: inline-block;
+.aligned-text {
   text-align: start;
-  margin-left: 50px;
-  margin-top: 165px;
   line-height: 115px;
-  margin-bottom: 20px;
-  font-size: 100px;
 }
 
-.second_line {
-  margin-bottom: 20px;
+.aligned-text_center {
   text-align: center;
   line-height: 100px;
-  font-size: 100px;
 }
 
-.third_line {
-  margin-right: 50px;
+.aligned-text_right {
   text-align: end;
   line-height: 100px;
-  font-size: 100px;
 }
 
 .letter-spacing-extended {
@@ -117,8 +114,6 @@ body {
   display: flex;
   margin: 135px 50px 50px 0;
   align-items: center;
-  text-transform: uppercase;
-  font-size: 22px;
 }
 
 .auction {
@@ -126,6 +121,9 @@ body {
   padding-right: 78px;
   margin-left: auto;
   color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
   word-spacing: 17px;
   letter-spacing: normal;
   font-weight: 400;
@@ -140,10 +138,12 @@ body {
   border: 1px solid;
   background-color: transparent;
   color: #fff;
+  font-size: 22px;
   letter-spacing: normal;
   font-weight: 400;
   white-space: nowrap;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -181,7 +181,7 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 450px;
+  min-height: 450px;
   max-width: 430px;
   overflow: hidden;
 }
@@ -191,6 +191,8 @@ body {
 .picture::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 430px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -265,6 +267,7 @@ body {
 
 .logo_column {
   display: inline-block;
+  position: relative;
   margin: 0 95px 0 95px;
   width: 240px;
   height: 240px;
@@ -275,6 +278,8 @@ body {
   content: "";
   display: inline-block;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
   width: 240px;
   height: 240px;
